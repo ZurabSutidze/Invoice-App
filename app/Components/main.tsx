@@ -4,13 +4,6 @@ import Data from "../../data.json";
 import JobStyle from "./JobStyle";
 
 export default function Main() {
-  type Invoice = {
-    id: string;
-    paymentDue: string;
-    clientName: string;
-    status: string;
-    total: number;
-  };
 
   const Job: JSX.Element[] = [];
 
@@ -22,7 +15,7 @@ export default function Main() {
         case "pending":
           return "bg-[#FF8F00]";
         default:
-          return "bg-[#373B53]";
+          return "bg-[#5d638f]";
       }
     }
 
