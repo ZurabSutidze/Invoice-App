@@ -19,5 +19,9 @@ body{
     flex-direction: column;
     display: flex;
     align-items: center;
-    
 }
+
+img , p{
+    user-select: none;
+}
+
